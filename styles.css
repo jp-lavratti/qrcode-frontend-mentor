@@ -1,0 +1,52 @@
+:root {
+  --cor-background: hsl(0, 0%, 100%);
+}
+* {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit";
+}
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-background);
+  width: 300px;
+  height: 470px;
+  justify-content: center;
+  border-radius: 18px;
+  align-items: center;
+}
+.qrcode {
+  width: 270px;
+  border-radius: 10px;
+}
+.text {
+  background-color: var(--cor-background);
+  margin: 15px 30px;
+  text-align: center;
+}
+.text1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+}
+.text2 {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
